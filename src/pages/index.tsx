@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Image from 'next/image';
 
-import ProfileModule from '@/components/modules/Profile'
 import TopNav from '@/components/modules/TopNav'
 import Experience from '@/components/modules/Experience'
 import Projects from '@/components/modules/Projects'
@@ -17,8 +17,8 @@ export default function Home() {
 
       <main>
         <TopNav />
-        <div className='flex flex-row'>
-          <div className="m-auto p-10">
+        <div className='flex flex-col md:flex-row'>
+          <div className="m-auto p-10 md:ml-10 md:w-5/12">
               <div>👋 Hello, my name is</div>
               <div className="text-3xl">Oli Gray</div>
               <div className="text-xl">Software Developer and Cyber Criminal</div>
@@ -29,9 +29,10 @@ export default function Home() {
                   software development, and more!
               </p>
 
-              <div className="text-center">
+
+          </div>
+          <div className="text-center">
                   have cool image here
-              </div>
           </div>
         </div>
 
