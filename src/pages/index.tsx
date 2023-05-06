@@ -17,7 +17,23 @@ export default function Home() {
 
       <main>
         <TopNav />
-        <ProfileModule />
+        <div className='flex flex-row'>
+          <div className="m-auto p-10">
+              <div>👋 Hello, my name is</div>
+              <div className="text-3xl">Oli Gray</div>
+              <div className="text-xl">Software Developer and Cyber Criminal</div>
+
+              <p className='text-left mt-3'>
+                  bio for about me and what kinda stuff i be doing
+                  and there is some cool stuff. hacking, reverse engineering,
+                  software development, and more!
+              </p>
+
+              <div className="text-center">
+                  have cool image here
+              </div>
+          </div>
+        </div>
 
         
 

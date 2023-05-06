@@ -10,9 +10,8 @@ const TopNav:FC = () => {
 
     return (
         <div className="flex flex-row">
-            <div>Cool Logo Here</div>
-            <div>Gray</div>            
-
+            <div>Cool Logo Here</div>      
+            
         
         </div>
     )
