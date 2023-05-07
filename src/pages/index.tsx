@@ -31,10 +31,24 @@ export default function Home() {
 
 
           </div>
+
+          <div className='m-auto flex flex-row-reverse pb-10'>
+            <div>
+              Email
+            </div>
+            <div>
+              Github
+            </div>
+            <div>
+              LinkedIn
+            </div>
+          </div>
+          
           <div className="text-center">
                   have cool image here
           </div>
         </div>
+
 
         
 
