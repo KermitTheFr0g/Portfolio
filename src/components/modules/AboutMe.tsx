@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const Projects:FC = () => {
+const AboutMe:FC = () => {
     return(
         <div>
             
@@ -9,4 +9,4 @@ const Projects:FC = () => {
     )
 }
 
-export default Projects;
+export default AboutMe;

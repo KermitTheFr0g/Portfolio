@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import TopNav from '@/components/modules/TopNav'
 import Experience from '@/components/modules/Experience'
-import Projects from '@/components/modules/Projects'
+import Projects from '@/components/modules/AboutMe'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
 
       <main>
         <TopNav />
-        <div className='flex flex-col md:flex-row'>
+        <div className='flex flex-col'>
           <div className="m-auto p-10 md:ml-10 md:w-5/12">
               <div>👋 Hello, my name is</div>
               <div className="text-3xl">Oli Gray</div>
@@ -43,12 +43,45 @@ export default function Home() {
               LinkedIn
             </div>
           </div>
-          
+
           <div className="text-center">
                   have cool image here
           </div>
         </div>
 
+        <div>
+          <div>About Me</div>
+          <p>
+            this is the about me section
+          </p>
+
+          <div className=''>
+            <div>Projects</div>
+            <ul>
+              <li>Project 1</li>
+              <li>Project 2</li> 
+              <li>Project 3</li>
+            </ul>
+          </div>
+
+          <div>
+            <div>Skills</div>
+            <ul>
+              <li>Skill 1</li>
+              <li>Skill 2</li>
+              <li>Skill 3</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div>
+          <div>Experience</div>
+          <ul>
+            <li>Experience 1</li>
+            <li>Experience 2</li>
+            <li>Experience 3</li>
+          </ul>
+        </div>
 
         
 
