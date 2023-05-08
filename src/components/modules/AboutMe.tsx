@@ -13,7 +13,7 @@ const AboutMe:FC = () => {
                 <div>Projects</div>
                 <ul>
                   <li>NFT Social Media</li>
-                  <li>Project 2</li> 
+                  <li>Blog</li> 
                   <li>Project 3</li>
                 </ul>
               </div>
