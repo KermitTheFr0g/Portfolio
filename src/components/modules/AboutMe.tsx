@@ -6,13 +6,13 @@ const AboutMe:FC = () => {
             <div>
               <div>About Me</div>
               <p>
-                this is the about me section
+                talk some stuff about me here
               </p>
 
               <div className=''>
                 <div>Projects</div>
                 <ul>
-                  <li>Project 1</li>
+                  <li>NFT Social Media</li>
                   <li>Project 2</li> 
                   <li>Project 3</li>
                 </ul>
