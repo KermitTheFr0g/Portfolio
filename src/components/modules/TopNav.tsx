@@ -12,7 +12,7 @@ const TopNav:FC = () => {
     }
 
     return (
-        <div className="flex flex-row">
+        <div className="flex flex-row p-1 md:p-3">
             <Image src={logo} width={64} height={64} alt="logo"/>
         </div>
     )
