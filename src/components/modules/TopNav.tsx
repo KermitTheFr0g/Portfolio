@@ -1,5 +1,8 @@
 import { FC, useEffect, useState } from "react";
+import Image from 'next/image';
+
 import TopNavItem from "../TopNavItem";
+import logo from '../../../public/images/logo.png'
 
 const TopNav:FC = () => {
     const [openedNav, setOpenedNav] = useState(false);
@@ -10,9 +13,7 @@ const TopNav:FC = () => {
 
     return (
         <div className="flex flex-row">
-            <div>Cool Logo Here</div>      
-            
-        
+            <Image src={logo} width={64} height={64} alt="logo"/>
         </div>
     )
 }
