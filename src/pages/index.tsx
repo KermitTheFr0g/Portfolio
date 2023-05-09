@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import TopNav from '@/components/modules/TopNav'
 import Experience from '@/components/modules/Experience'
-import AboutMe from '@/components/modules/AboutMe'
+import Projects from '@/components/modules/Projects'
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
                       and there is some cool stuff. hacking, reverse engineering,
                       software development, and more!
                   </p>
-              </div>
+              </div>  
               <div className="text-center my-auto pb-10 md:mr-10 md:pb-0">
                 have cool image here
               </div>
@@ -59,9 +59,15 @@ export default function Home() {
         </div>
 
         <div className='flex flex-col lg:w-1/2 md:m-auto'>
-          <AboutMe />
+            <div className="m-auto p-10 md:ml-10 md:w-5/12 lg:w-9/12">
+                <div className="text-3xl">About Me</div>
+                <p>
+                    talk some stuff about me here
+                </p>
+            </div>
         </div>
-
+        
+        <Projects />
 
 
       </main>
