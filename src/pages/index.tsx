@@ -57,15 +57,6 @@ export default function Home() {
             </svg> 
           </div>
         </div>
-
-        <div className='flex flex-col lg:w-1/2 md:m-auto'>
-            <div className="m-auto p-10 md:ml-10 md:w-5/12 lg:w-9/12">
-                <div className="text-3xl">About Me</div>
-                <p>
-                    talk some stuff about me here
-                </p>
-            </div>
-        </div>
         
         <Projects />
 

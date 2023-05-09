@@ -32,7 +32,7 @@ const AboutMe:FC = () => {
                 {
                     projects.map((project) => {
                         return (
-                            <div key={project.id} className="bg-background m-3 md:m-0 rounded-xl md:w-1/4 md:mt-5 md:hover:scale-110 transition duration-500">
+                            <div key={project.id} className="bg-background m-3 md:m-0 rounded-xl md:w-1/4 md:mt-7 md:hover:scale-110 transition duration-500">
                                 <div className="p-5">
                                 <div className="text-2xl">{project.name}</div>
                                 <p>{project.description}</p>
