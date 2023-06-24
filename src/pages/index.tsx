@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import TopNav from '@/components/modules/TopNav'
+import Footer from '@/components/modules/Footer';
 import Experience from '@/components/modules/Experience'
 import Projects from '@/components/modules/Projects'
 
@@ -63,6 +64,8 @@ export default function Home() {
 
       </main>
 
+
+      <Footer />
     </>
   )
 }
