@@ -32,8 +32,14 @@ export default function Home() {
                       software development, and more!
                   </p>
               </div>  
-              <div className="text-center my-auto pb-10 md:mr-10 md:pb-0">
-                have cool image here
+              <div className="text-center mx-auto my-auto pb-10 md:mr-10 md:pb-0">
+                <Image
+                  className='rounded-full'
+                  src="/images/kermit.png"
+                  alt="Picture of the author"
+                  width={150}
+                  height={150}
+                />
               </div>
             </div>
             <div className='m-auto flex flex-row pb-10'>

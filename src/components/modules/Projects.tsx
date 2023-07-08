@@ -16,7 +16,7 @@ const AboutMe:FC = () => {
             name: "Black Swan NFT",
             description: "A live NFT project I released",
             image: "https://via.placeholder.com/150",
-            link: "https://blackswan.xyz"
+            link: "https://black-swan.vercel.app/"
         },
         {
             id: 3,
