@@ -15,7 +15,7 @@ const AboutMe:FC = () => {
             id: 2,
             name: "Black Swan NFT",
             description: "A live NFT project I released",
-            image: "https://via.placeholder.com/150",
+            image: "/images/black-swan.png",
             link: "https://black-swan.vercel.app/"
         },
         {
@@ -44,6 +44,7 @@ const AboutMe:FC = () => {
                         return (
                             <ProjectCard 
                                 key={project.id}
+                                id={project.id}
                                 name={project.name}
                                 description={project.description}
                                 image={project.image}
